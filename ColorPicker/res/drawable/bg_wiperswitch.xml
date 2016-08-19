@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.axaet.wifi.util.WiperSwitch
+        android:id="@+id/GPIO0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp" />
+    <com.axaet.wifi.util.WiperSwitch
+        android:id="@+id/GPIO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp" />
+    <com.axaet.wifi.util.WiperSwitch
+        android:id="@+id/GPIO4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="150dp" />
+    <com.axaet.wifi.util.WiperSwitch
+        android:id="@+id/GPIO5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="200dp" />
+    <com.axaet.wifi.util.WiperSwitch
+        android:id="@+id/GPIO12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="250dp" />
+    <com.axaet.wifi.util.WiperSwitch
+        android:id="@+id/GPIO13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="300dp" />
+    <com.axaet.wifi.util.WiperSwitch
+        android:id="@+id/GPIO14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="350dp" />
+    <com.axaet.wifi.util.WiperSwitch
+        android:id="@+id/GPIO15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="400dp" />
+    <com.axaet.wifi.util.WiperSwitch
+        android:id="@+id/GPIO16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="450dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="60dp"
+        android:text="GPIO0"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="110dp"
+        android:text="GPIO2"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="160dp"
+        android:text="GPIO4"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="210dp"
+        android:text="GPIO5"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="260dp"
+        android:text="GPIO12"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="310dp"
+        android:text="GPIO13"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="360dp"
+        android:text="GPIO14"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="410dp"
+        android:text="GPIO15"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="460dp"
+        android:text="GPIO16"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+
+</RelativeLayout>

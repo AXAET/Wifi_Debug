@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="color_picker">
+
+        <attr name="circle_radius" format="dimension" />
+        <attr name="center_radius" format="dimension" />
+        <attr name="center_color" format="color" />
+    </declare-styleable>
+
+</resources>
